@@ -6,7 +6,7 @@ public class CalculadoraTests {
 
 	public static void main(String[] args) {
 		Calculadora miMaizro = new Calculadora();
-		int resultado= miMaizro.sumar(34, 69);
+		int resultado= (int) miMaizro.sumar(34, 69);
 		System.out.println("EL resultado de la suma "+resultado);
 	}
 
