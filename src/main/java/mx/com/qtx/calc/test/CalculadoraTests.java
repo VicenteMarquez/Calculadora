@@ -6,9 +6,10 @@ public class CalculadoraTests {
 
 	public static void main(String[] args) {
 		Calculadora miMaizro = new Calculadora();
-		int resultado= miMaizro.sumar(34, 69);
+		int resultado= miMaizro.sumar(100, 150);
 		System.out.println("EL resultado de la suma "+resultado);
-		System.out.println("EL resultado de la restra "+miMaizro.restar(100, 50));
+		System.out.println("EL resultado de la restra "+miMaizro.restar(100, 150));
+		System.out.println("EL resultado de la multiplicar "+miMaizro.multitplicar(100, 150));
 	}
 
 }

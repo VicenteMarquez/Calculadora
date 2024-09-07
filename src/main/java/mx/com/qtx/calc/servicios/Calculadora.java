@@ -10,5 +10,9 @@ public class Calculadora {
 		int suma = x - y;
 		return suma;
 	}
+	public int multitplicar(int x, int y) {
+		int suma = x * y;
+		return suma;
+	}
 
 }
