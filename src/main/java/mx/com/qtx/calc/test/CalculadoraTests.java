@@ -8,6 +8,7 @@ public class CalculadoraTests {
 		Calculadora miMaizro = new Calculadora();
 		int resultado= miMaizro.sumar(34, 69);
 		System.out.println("EL resultado de la suma "+resultado);
+		System.out.println("EL resultado de la restra "+miMaizro.restar(100, 50));
 	}
 
 }
