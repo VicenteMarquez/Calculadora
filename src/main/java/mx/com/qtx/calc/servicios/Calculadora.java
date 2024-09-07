@@ -7,4 +7,9 @@ public class Calculadora {
 		return suma;
 	}
 
+	public <T extends Number> double dividir(T x, T y) {
+		double suma  = x.doubleValue() / y.doubleValue();
+		return suma;
+	}
+
 }

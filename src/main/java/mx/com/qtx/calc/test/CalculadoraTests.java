@@ -8,6 +8,7 @@ public class CalculadoraTests {
 		Calculadora miMaizro = new Calculadora();
 		int resultado= (int) miMaizro.sumar(34, 69);
 		System.out.println("EL resultado de la suma "+resultado);
+		System.out.println("EL resultado de la divi "+miMaizro.dividir(150, 100));
 	}
 
 }
