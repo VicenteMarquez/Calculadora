@@ -5,13 +5,11 @@ import mx.com.qtx.calc.servicios.Calculadora;
 public class CalculadoraTests {
 
 	public static void main(String[] args) {
-		test_suma();
-	}
-
-	private static void test_suma() {
 		Calculadora miMaizro = new Calculadora();
-		int resultado= (int) miMaizro.sumar(34, 69);
+		double resultado= miMaizro.sumar( 100,  150);
 		System.out.println("EL resultado de la suma "+resultado);
+		System.out.println("EL resultado de la restra "+miMaizro.restar(100, 150));
+		System.out.println("EL resultado de la multiplicar "+miMaizro.multitplicar(100, 150));
 	}
 
 }
