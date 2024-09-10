@@ -10,6 +10,8 @@ public class CalculadoraTests {
 		System.out.println("EL resultado de la suma "+resultado);
 		System.out.println("EL resultado de la restra "+miMaizro.restar(100, 150));
 		System.out.println("EL resultado de la multiplicar "+miMaizro.multitplicar(100, 150));
+		System.out.println("EL resultado de la divi "+miMaizro.dividir(150, 100));
+
 	}
 
 }
