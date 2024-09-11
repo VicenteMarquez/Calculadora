@@ -19,5 +19,7 @@ public class Calculadora {
 		double suma  = x.doubleValue() / y.doubleValue();
 		return suma;
 	}
-
+	public double sumar(int...nums) {
+		return 0;
+	}
 }
